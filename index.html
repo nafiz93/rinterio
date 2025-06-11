@@ -49,13 +49,29 @@
         .btn-bg {
             background-color: rgb(171, 239, 95);
         }
+
+        .card-one-bg {
+            background-color: rgb(231, 193, 211)
+        }
+
+        .card-two-bg {
+            background-color: rgb(239, 218, 110)
+        }
+
+        .card-three-bg {
+            background-color: rgb(164, 218, 195)
+        }
+
+        .card-four-bg {
+            background-color: rgb(119, 170, 234)
+        }
     </style>
 
 </head>
 
 <body class="font-manrope bg-color">
 
-    <section class="navbar w-full shadow-sm">
+    <section class="navbar lg:w-2/3 lg:mx-auto">
         <div class="navbar-start">
 
             <div class="flex items-center lg:gap-2">
@@ -65,8 +81,8 @@
                 <a class="lg:text-xl text-sm font-bold">Rinterio</a>
             </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+        <div class="navbar-center hidden lg:flex lg:mr-8">
+            <ul class="menu menu-horizontal px-1 font-light">
                 <li><a>Home</a></li>
                 <li><a>Services</a></li>
                 <li><a>Portfolio</a></li>
@@ -157,7 +173,7 @@
     </section>
 
 
-    <div class="hero lg:w-2/3 mx-auto bg-color">
+    <section class="hero lg:w-2/3 mx-auto bg-color lg:mb-[80px] mb-[30px]">
         <div class="hero-content flex-col-reverse lg:flex-row-reverse lg:items-end items-center">
             <div>
                 <img src="/assets/Rectangle.png" class=" w-[336px] rounded-lg shadow-2xl" />
@@ -202,11 +218,108 @@
 
             </div>
         </div>
-    </div>
+    </section>
 
+    <section
+        class="lg:w-2/3 color flex flex-col gap-10 lg:flex-row lg:justify-between lg:mx-auto shadow-sm rounded-lg lg:p-6">
+        <div class="text-center">
+            <i class="fa-regular fa-message text-gray-400 text-lg"></i>
+            <h3 class="font-black text-[40px] leading-[50px]">235+</h3>
+            <p class="font-light text[14px] leading-[22px]">Happy Client Review</p>
+        </div>
+        <div class="text-center">
+            <i class=" fa-solid fa-cubes text-gray-400 text-xl"></i>
+            <h3 class="font-black text-[40px] leading-[50px]">50+</h3>
+            <p class="font-light text[14px] leading-[22px]">Work Departments</p>
+        </div>
+        <div class="text-center">
+            <i class=" fa-solid fa-users text-gray-400 text-lg"></i>
+            <h3 class="font-black text-[40px] leading-[50px]">30K+</h3>
+            <p class="font-light text[14px] leading-[22px]">Our Happy Clients</p>
+        </div>
+        <div class="text-center">
+            <i class=" fa-solid fa-user-group text-gray-400 text-lg"></i>
+            <h3 class="font-black text-[40px] leading-[50px]">307+</h3>
+            <p class="font-light text[14px] leading-[22px]">Staff Members</p>
+        </div>
+    </section>
 
+    <section class="lg:w-2/3 mx-auto mt-[100px]">
+        <div class="mb-7 text-center">
+            <h1 class="text-[40px] leading-[50px] font-extrabold">Our Works Process</h1>
+            <p class="text-[15px] leading-[22px] font-extralight">The barn house captivates with its blend of rustic
+                charm and modern
+                sophistication,<br> featuring weathered
+                wood,
+                sleek metal accents.</p>
+        </div>
+        <div class="flex flex-col items-center gap-5 lg:flex-row lg:gap-4 ">
+            <div class="card bg-base-100 w-96 shadow-sm card-one-bg flex justify-start py-3 rounded-2xl">
+                <div class="ml-3">
+                    <img src="/assets/concept.png" alt="Shoes" />
+                </div>
+                <div class="card-body">
+                    <h2>
 
+                        <div class="font-bold text-xl">Concept</div>
+                    </h2>
+                    <p class="text-sm font-extralight">A card component has a figure, a body part, and inside body there
+                        are
+                        title and
+                        actions parts</p>
 
+                </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-sm card-two-bg flex justify-start py-3 rounded-2xl">
+                <div class="ml-4">
+                    <img src="/assets/flow-chart.png" alt="Shoes" />
+                </div>
+                <div class="card-body">
+                    <h2>
+
+                        <div class="font-bold text-xl">Design Process</div>
+                    </h2>
+                    <p class="text-sm font-extralight">A card component has a figure, a body part, and inside body there
+                        are
+                        title and
+                        actions parts</p>
+
+                </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-sm card-three-bg flex justify-start py-3 rounded-2xl">
+                <div class="ml-4">
+                    <img src="/assets/vision.png" alt="Shoes" />
+                </div>
+                <div class="card-body">
+                    <h2>
+
+                        <div class="font-bold text-xl">Supervision</div>
+                    </h2>
+                    <p class="text-sm font-extralight">A card component has a figure, a body part, and inside body there
+                        are
+                        title and
+                        actions parts</p>
+
+                </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-sm card-four-bg flex justify-start py-3 rounded-2xl">
+                <div class="ml-4">
+                    <img src="/assets/budget-planning.png" alt="Shoes" />
+                </div>
+                <div class="card-body">
+                    <h2>
+
+                        <div class="font-bold text-xl">Budget Planning</div>
+                    </h2>
+                    <p class="text-sm font-extralight">A card component has a figure, a body part, and inside body there
+                        are
+                        title and
+                        actions parts</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
